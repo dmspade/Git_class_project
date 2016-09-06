@@ -1,0 +1,7 @@
+instructors = ["Homer"]
+for i in instrutors:
+  if i == "Homer":
+     instructors += ["Lisa"]
+  if i == "Lisa":
+     instructors += ["Bart"]
+print(instrutors)
